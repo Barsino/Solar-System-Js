@@ -3,6 +3,8 @@ var  ctx = /** @type {CanvasRenderingContext2D} */(null);
 
 document.addEventListener('DOMContentLoaded', Init);
 
+var universe = null;
+
 function Init()
 {
     canvas = document.getElementById('my_canvas');
@@ -33,7 +35,9 @@ function Init()
 
 function Start()
 {
+    universe = null;
 
+    universe = new Universe(canvas, ctx);
 }
 
 function Loop()
@@ -46,10 +50,12 @@ function Loop()
 
 function Draw()
 {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
 
+    universe.Draw();
 }
 
 function Update()
 {
-    
+
 }
