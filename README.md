@@ -16,7 +16,7 @@ Este proyecto consiste en la implementación de un modelo simple de sistema sola
 
 ## Capturas de Pantalla
 
-![Sistema Solar](assets\screenshots\Soalr-System_Screenshot.png)
+![Sistema Solar](assets/screenshots/Soalr-System_Screenshot.png)
 
 ## Cómo Ejecutar el Proyecto
 
