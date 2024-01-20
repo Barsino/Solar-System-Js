@@ -42,16 +42,16 @@ function Start()
 
     universe = new Universe(canvas, ctx);
 
-    const sun = CreatePlanet(canvas, ctx, "../../assets/sun.svg", universe.center, universe.circleRadius, 3.5, 0, 0.01, 0);
-    const mercury = CreatePlanet(canvas, ctx, "../../assets/mercury.svg", universe.center, universe.circleRadius, 40, 0.2, 0.01, 0.02);
-    const venus = CreatePlanet(canvas,ctx, "../../assets/venus.svg", universe.center, universe.circleRadius, 20,0.27, 0.01, 0.01);
-    const earth = CreatePlanet(canvas,ctx, "../../assets/earth.svg", universe.center, universe.circleRadius, 20,0.35, 0.01, 0.003);
+    const sun = CreatePlanet(canvas, ctx, "../../assets/planets/sun.svg", universe.center, universe.circleRadius, 3.5, 0, 0.01, 0);
+    const mercury = CreatePlanet(canvas, ctx, "../../assets/planets/mercury.svg", universe.center, universe.circleRadius, 40, 0.2, 0.01, 0.02);
+    const venus = CreatePlanet(canvas,ctx, "../../assets/planets/venus.svg", universe.center, universe.circleRadius, 20,0.27, 0.01, 0.01);
+    const earth = CreatePlanet(canvas,ctx, "../../assets/planets/earth.svg", universe.center, universe.circleRadius, 20,0.35, 0.01, 0.003);
     //const moon = new Planet(canvas,ctx,earth.center, universe.circleRadius, 70, 0.1, 0.01, 0.1);
-    const mars = CreatePlanet(canvas,ctx, "../../assets/mars.svg", universe.center, universe.circleRadius, 30,0.42, 0.01, 0.005);
-    const jupiter = CreatePlanet(canvas,ctx, "../../assets/jupiter.svg", universe.center, universe.circleRadius, 10,0.60, 0.01, 0.0025);
-    const saturn = CreatePlanet(canvas,ctx, "../../assets/saturn.svg", universe.center, universe.circleRadius, 12,0.75, 0.01, 0.002);
-    const uranus = CreatePlanet(canvas,ctx, "../../assets/uranus.svg", universe.center, universe.circleRadius, 15,0.84, 0.01, 0.001);
-    const neptune = CreatePlanet(canvas,ctx, "../../assets/neptune.svg", universe.center, universe.circleRadius, 15,0.95, 0.01, 0.0008);
+    const mars = CreatePlanet(canvas,ctx, "../../assets/planets/mars.svg", universe.center, universe.circleRadius, 30,0.42, 0.01, 0.005);
+    const jupiter = CreatePlanet(canvas,ctx, "../../assets/planets/jupiter.svg", universe.center, universe.circleRadius, 10,0.60, 0.01, 0.0025);
+    const saturn = CreatePlanet(canvas,ctx, "../../assets/planets/saturn.svg", universe.center, universe.circleRadius, 12,0.75, 0.01, 0.002);
+    const uranus = CreatePlanet(canvas,ctx, "../../assets/planets/uranus.svg", universe.center, universe.circleRadius, 15,0.84, 0.01, 0.001);
+    const neptune = CreatePlanet(canvas,ctx, "../../assets/planets/neptune.svg", universe.center, universe.circleRadius, 15,0.95, 0.01, 0.0008);
 
     planets.push(sun);
     planets.push(mercury);
