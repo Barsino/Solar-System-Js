@@ -20,7 +20,7 @@ Este proyecto consiste en la implementación de un modelo simple de sistema sola
 1. Clona este repositorio:
 
    -en bash:
-      git clone https://github.com/tuusuario/sistema-solar.git
+      git clone https://github.com/Barsino/Solar-System-Js.git
 
 2. Abre el archivo index.html en tu navegador web
 3. ¡Explora el sistema solar!🚀
