@@ -4,7 +4,16 @@ body, html{
     overflow: hidden;
 }
 
-canvas{
-    display: block;
+.container{
+    display: flex;
+    height: 100%;
+}
+
+.container canvas{
+    flex: 1;
     background-color: rgb(31, 30, 30);
+}
+
+p{
+    word-wrap: break-word;
 }
